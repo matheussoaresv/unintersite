@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Metas tags e linkagem com o arquivo de estilos-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Fundamentos da Programação Web</title>
+</head>
+<body>
+    <!--Header e menu para navegação-->
+    <header id="header-principal">
+        <nav>
+            <ul class="lista-links">
+                <li><a href="index.html">Sobre mim</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <!--Seção com título e formulário para contato-->
+    <section id="contato" class="space-padrão">
+        
+        <h2 class="texto-centro">Contato</h2>
+        <hr class="divisor" style="margin: 0 auto;">
+
+        <p class="texto-centro">Preencha o formulário para que eu entre em contato com você!</p>
+
+        
+        <div class="container">
+            <h3 class="texto-centro">Formulário</h3>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
